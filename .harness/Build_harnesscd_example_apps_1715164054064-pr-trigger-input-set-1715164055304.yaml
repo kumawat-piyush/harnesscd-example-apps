@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnesscd_example_apps_1715164054064-pr-trigger-input-set
+  identifier: Build_harnesscd_example_apps_1715164054064prtriggerinputset
+  orgIdentifier: Product_Security
+  projectIdentifier: Piyush_Onboarding
+  pipeline:
+    identifier: Build_harnesscd_example_apps_1715164054064
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
