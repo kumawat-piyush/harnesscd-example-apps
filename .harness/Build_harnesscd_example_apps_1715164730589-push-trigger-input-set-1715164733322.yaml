@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnesscd_example_apps_1715164730589-push-trigger-input-set
+  identifier: Build_harnesscd_example_apps_1715164730589pushtriggerinputset
+  orgIdentifier: Product_Security
+  projectIdentifier: Piyush_Onboarding
+  pipeline:
+    identifier: Build_harnesscd_example_apps_1715164730589
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
